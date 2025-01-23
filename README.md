@@ -61,7 +61,9 @@ Loan approval prediction is a critical task in the banking and finance industry.
 
 ## 🔍 Model Performance
 
-The project evaluates multiple machine learning algorithms to identify the best-performing model for loan approval prediction. Below are the performance metrics for each algorithm:
+## 🔍 Model Performance
+
+The project evaluates multiple machine learning algorithms, including an Artificial Neural Network (ANN), to identify the best-performing model for loan approval prediction. Below are the performance metrics for each algorithm:
 
 | **Model Name**            | **Accuracy (%)** | **Precision (%)** | **Confusion Matrix**        |
 |---------------------------|------------------|-------------------|-----------------------------|
@@ -70,13 +72,22 @@ The project evaluates multiple machine learning algorithms to identify the best-
 | Support Vector Machine    | 74.56           | 77.47            | [[51, 35], [8, 75]]        |
 | Random Forest             | 82.84           | 85.53            | [[60, 26], [3, 80]]        |
 | Decision Tree             | 79.88           | 79.09            | [[60, 26], [11, 72]]       |
+| Artificial Neural Network | 77.78           | N/A              | N/A                        |
+
+### Artificial Neural Network (ANN) Training Summary:
+- **Training Process**:
+  - Trained over 10 epochs using the Adam optimizer and binary cross-entropy loss function.
+  - Showed gradual improvement in accuracy and reduction in loss during training and validation.
+- **Performance Metrics**:
+  - **Training Accuracy**: 77.06%
+  - **Validation Accuracy**: 77.78%
+  - **Test Accuracy**: 75.15%
 
 ### Key Observations:
 - **Random Forest** achieves the highest accuracy (82.84%) and precision (85.53%), making it the most reliable model for this dataset.
 - **K-Nearest Neighbors** and **Decision Tree** also perform well, with accuracy scores of 79.29% and 79.88%, respectively.
-- **Logistic Regression** and **Support Vector Machine** show similar performance but are less accurate compared to ensemble models like Random Forest.
+- **Artificial Neural Network** demonstrates competitive performance, showing the potential for further optimization with additional hyperparameter tuning or dataset expansion.
 
-The confusion matrix for each model highlights how well it distinguishes between approved and rejected loans.
 
 
 ---
