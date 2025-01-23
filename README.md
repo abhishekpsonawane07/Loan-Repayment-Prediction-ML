@@ -59,6 +59,27 @@ Loan approval prediction is a critical task in the banking and finance industry.
 
 ---
 
+## 🔍 Model Performance
+
+The project evaluates multiple machine learning algorithms to identify the best-performing model for loan approval prediction. Below are the performance metrics for each algorithm:
+
+| **Model Name**            | **Accuracy (%)** | **Precision (%)** | **Confusion Matrix**        |
+|---------------------------|------------------|-------------------|-----------------------------|
+| Logistic Regression       | 74.56           | 77.03            | [[52, 34], [9, 74]]        |
+| K-Nearest Neighbors       | 79.29           | 74.94            | [[56, 30], [14, 69]]       |
+| Support Vector Machine    | 74.56           | 77.47            | [[51, 35], [8, 75]]        |
+| Random Forest             | 82.84           | 85.53            | [[60, 26], [3, 80]]        |
+| Decision Tree             | 79.88           | 79.09            | [[60, 26], [11, 72]]       |
+
+### Key Observations:
+- **Random Forest** achieves the highest accuracy (82.84%) and precision (85.53%), making it the most reliable model for this dataset.
+- **K-Nearest Neighbors** and **Decision Tree** also perform well, with accuracy scores of 79.29% and 79.88%, respectively.
+- **Logistic Regression** and **Support Vector Machine** show similar performance but are less accurate compared to ensemble models like Random Forest.
+
+The confusion matrix for each model highlights how well it distinguishes between approved and rejected loans.
+
+
+---
 ## 🖥️ Getting Started
 ### Prerequisites
 - Python 3.7+
