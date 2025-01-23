@@ -1,7 +1,6 @@
 # Loan-Repayment-Prediction-ML
 Loan Approval Prediction uses machine learning to analyze factors like income and credit history, automating and improving the loan approval process. The project ensures accurate, efficient, and user-friendly predictions with a Gradio interface.
 
-# Loan Approval Prediction System
 
 ## 📖 Overview
 Loan approval prediction is a critical task in the banking and finance industry. This project leverages machine learning to predict whether a loan application will be approved based on features such as applicant income, credit history, loan amount, and more. By automating the decision-making process, this system aims to reduce risks for financial institutions and improve customer satisfaction.
