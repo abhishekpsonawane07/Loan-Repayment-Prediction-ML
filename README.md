@@ -67,10 +67,17 @@ Loan approval prediction is a critical task in the banking and finance industry.
   pip install -r requirements.txt
 
 
-🌟 Demo
+## 🌟Demo
+
+
+![Image](https://github.com/user-attachments/assets/c65902bf-906f-4264-9770-aac3f992d379)
+
+
+![Image](https://github.com/user-attachments/assets/816ddce9-8858-4826-872e-723a5d7605f2)
 
 
 
 
-🤝 Contributing
+
+## 🤝 Contributing
     Contributions are welcome! Feel free to open issues or submit pull requests.
